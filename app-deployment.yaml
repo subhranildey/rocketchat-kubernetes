@@ -14,7 +14,7 @@ spec:
         image: rocketchat/rocket.chat:latest
         env:
         - name: ROOT_URL
-          value: "https://chat.example.com"
+          value: "https://chat.tutorslink.com"
         - name: MONGO_URL
           value: "mongodb://rocketchat-database:27017/rocketchat"
         ports:

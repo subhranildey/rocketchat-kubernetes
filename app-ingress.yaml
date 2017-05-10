@@ -5,14 +5,13 @@ metadata:
 spec:
   tls:
   - hosts:
-    - chat.example.com
+    - chat.tutorslink.com
     secretName: rocketchat-ssl
   rules:
-  - host: chat.example.com
+  - host: chat.tutorslink.com
     http:
       paths:
       - path: /
         backend:
           serviceName: rocketchat-service
           servicePort: 3000
-
